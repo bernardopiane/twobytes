@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Gotham Rounded;
+    src: url("./GothamRoundedBook_21018.ttf");
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo-main {
+    font-size: 31px;
+    letter-spacing: -2px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+}
+
+.logo-sub {
+    font-size: 12px;
+    letter-spacing: 8px;
+    line-height: 19px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+}
+
+#navbarSupportedContent a {
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-weight: 500;
+    margin-left: 2em;
+    border-top: 3px solid transparent;
+    padding: 0.25em 0 0 0;
+    /* padding-top: 0.25em; */
+    transition: all 0.25s ease-in-out;
+}
+
+#navbarSupportedContent a:hover {
+    border-top: 3px solid #4acaff;
+    color: #fff;
+}
+
+#hero {
+    background-image: url("./header\ img\ bg.png");
+    /* background: linear-gradient(to right bottom, rgba(255, 255, 255, 100) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 100%), url("./header\ img\ bg.png"); */
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#hero .content {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+#hero .content p {
+    font-size: 55px;
+    letter-spacing: -3px;
+    /* line-height: 25px; */
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-style: italic;
+}
+
+#hero .content input::placeholder, #hero .content select {
+    color: #c7c7c7;
+}
+
+#hero .content select option {
+    color: black;
+}
+
+#hero .content input {
+    border-radius: 3px;
+}
+
+#hero .content button {
+    font-size: 1rem;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-style: italic;
+    border-radius: 2px;
+    background-color: #4acaff;
+    border: none;
+}
+
+#hero .content input[type=checkbox] {
+    vertical-align: middle;
+}
+
+#hero .content label {
+    font-size: 13px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-style: italic;
+}
+
+.divider {
+    height: 5px;
+    background-image: url("./separator\ one.png");
+    background-size: cover;
+}
+
+#about-us {
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+#about-us p {
+    font-size: 18px;
+    color: #585858;
+    font-family: "Gotham Rounded";
+}
+
+#about-us button {
+    font-size: 15px;
+    color: #4acaff;
+    font-family: "Gotham Rounded";
+    font-weight: 500;
+    text-align: center;
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(56, 56, 56, 0);
+    border: 2px solid #4acaff;
+}
+
+.title {
+    font-size: 30px;
+    color: #585858;
+    font-family: "Gotham Rounded";
+    font-style: italic;
+}
+
+.title-bigger {
+    font-size: 45px;
+}
+
+.border-bot:after {
+    content: "";
+    display: block;
+    width: 138px;
+    background-color: #4acaff;
+    height: 5px;
+    position: relative;
+    margin: auto;
+    top: 2rem;
+}
+
+#subscribe {
+    background-color: #131c25;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+#subscribe p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+}
+
+#subscribe input {
+    /*width: 361px;*/
+    height: 51px;
+    font-family: "Gotham Rounded";
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #4acaff;
+    color: white;
+}
+
+#subscribe input[type="placeholder"], #subscribe input::placeholder {
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-style: italic;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+footer .mail {
+    font-size: 14px;
+    color: #7a7a7a;
+    font-family: "Gotham Rounded";
+    font-weight: 500;
+}
+
+footer .text {
+    font-size: 14px;
+    color: #a6a5a5;
+    font-family: "Gotham Rounded";
+}
+
+footer .text b{
+    color: #7a7a7a;
+}
